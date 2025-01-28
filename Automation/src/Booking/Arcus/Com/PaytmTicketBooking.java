@@ -29,15 +29,7 @@ public static void main(String[] args) throws InterruptedException {
 		
 		driver.findElement(By.xpath("//input[@class=\"fl-input _3VPG\"]")).click();
 		driver.findElement(By.xpath("//input[@class=\"fl-input _3VPG\"]")).sendKeys("20 Dec 2022");
-		Thread.sleep(3000);
-		
-		
-		
-		
-		
-		
-		
-		
+		Thread.sleep(3000);	
 		
 	}
 
