@@ -8,7 +8,7 @@ public class BookMyTrip {
 
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.drive",
-"C:\\Users\\M Thirupathaiah\\OneDrive\\Desktop\\Thiru\\Automation files\\chromedriver_win32//chromedriver.exe");
+"C:\\Users\\M Thirupathaiah\\OneDrive\\Desktop\\Thiru\\Automation files\\chromedriver_win32\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -35,3 +35,4 @@ public class BookMyTrip {
 	}
 
 }
+
